@@ -1,4 +1,6 @@
 painting-algorithms
 ===================
 
-Holds all scripts and source code relating to Rachel Levanger's painting algorithms project.
+(c) 2014, Rachel Levanger
+
+Holds all scripts and source code relating to the painting algorithms project.
