@@ -28,11 +28,11 @@ for x in range(0,img.shape[0]):
         
         rgb = img[x,y,:]/255
 
-        hls = list(ccm.rgb_to_his(rgb[0],rgb[1],rgb[2]))
+        hls = list(ccm.rgb_to_hls(rgb[0],rgb[1],rgb[2]))
 
-        his[1] = float(options.intensity)
+        hls[1] = float(options.intensity)
 
-        rgb = list(ccm.his_to_rgb(his[0],his[1],his[2]))
+        rgb = list(ccm.hls_to_rgb(hls[0],hls[1],hls[2]))
 
         rgb = [int(i*255) for i in rgb]
 
